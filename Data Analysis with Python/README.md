@@ -37,6 +37,8 @@ To read any data using Python's pandas package, there are two important factors 
   * Computer = "C:/ThisPC/Users/Desktop/data.csv"
   * Internet = "https://archive.ics.uci.edu/autps/imports-85.data"
 
+
+#### Importing CSV without Header
 The data format is CSV, which stands for comma separated values. At this point, these are just numbers and don't mean much to humans, but once we read in this data we can try to make more sense out of it. In pandas, the read_CSV method can read in files with columns separated by commas into a pandas data frame. Reading data in pandas can be done quickly in three lines.
 
 ```
@@ -47,3 +49,7 @@ path="https://archive.ics.uci.edu/ml/machine-learning-database/autos/imports-85.
 df = read_csv(path,header=None)
 ```
 
+#### Printing the dataframe in Python
+* `df` prints the entire dataset(not recommended for large datasets)
+* `df.head(n)` to show the first <i>n</i> rows of dataframe.
+* `df.tail(n)` to show the bottom <i>n</i> rows of dataframe.
