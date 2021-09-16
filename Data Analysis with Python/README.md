@@ -23,6 +23,6 @@ We have divided the Python data analysis libraries into three groups.
   1) <b>Scikit-Learn</b> = the Scikit-learn library contains tools statistical modeling, including regression, classification, clustering, and so on. This library is built on NumPy, SciPy and Matplotib. 
   2) <b>Statsmodel</b> = Statsmodels is also a Python module that allows users to explore data, estimate statistical models and perform statistical tests. 
 
-## <u>2)Understanding the Problem</u>
+## <u>2)Understanding the Problem & Data</u>
 
 <img src="https://miro.medium.com/max/1200/1*YPsZO50dIiEKpW9RqzqsTw.jpeg">
