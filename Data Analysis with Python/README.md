@@ -89,8 +89,10 @@ Ans - When no data value is stored for feature for a particular observation, we 
     * Drop the variable - Drop particular rows.
     * Drop the data entry - Drop particular column.
   * Replace the missing values 
-    * Replacing it with an average(of similar datapoints).
+  * Replacing it with an average(of similar datapoints).
       <p>As an example, suppose we have some entries that have missing values for the normalized losses column and the column average for entries with data is 4500. While there is no way for us to get an accurate guess of what the missing value is under the normalized losses column should have been, you can approximate their values using the average value of the column 4500.</p> 
-    * Replacing it by Frequency(Mostly for Categorical and non integer data)
-    * Replace it based on other functions.
-    * Leave it as missing data.
+  * Replacing it by Frequency(Mostly for Categorical and non integer data)
+  * Replace it based on other functions.
+  * Leave it as missing data.
+
+IMPLEMENTATION IS SHOWN IN .IPYNB File.
