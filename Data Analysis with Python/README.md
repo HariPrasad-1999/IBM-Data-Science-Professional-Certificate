@@ -36,3 +36,14 @@ To read any data using Python's pandas package, there are two important factors 
 * File Path = The path tells us where the data is stored. Usually, it is stored either on the, 
   * Computer = "C:/ThisPC/Users/Desktop/data.csv"
   * Internet = "https://archive.ics.uci.edu/autps/imports-85.data"
+
+The data format is CSV, which stands for comma separated values. At this point, these are just numbers and don't mean much to humans, but once we read in this data we can try to make more sense out of it. In pandas, the read_CSV method can read in files with columns separated by commas into a pandas data frame. Reading data in pandas can be done quickly in three lines.
+
+```
+import pandas as pd
+# read the online file by the URL provided above, and assign it to variable "df"
+path="https://archive.ics.uci.edu/ml/machine-learning-database/autos/imports-85.data"
+
+df = read_csv(path,header=None)
+```
+
