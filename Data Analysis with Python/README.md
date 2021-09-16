@@ -70,3 +70,4 @@ Using the method to_CSV, we can convert dataframe into CSV format. To do this, s
 The Exporting formats are:-<br>
 <img src="https://github.com/HariPrasad-1999/IBM-Data-Science-Professional-Certificate/blob/ad1166ff35754186760366e0fbe35dba0a4c19e8/Data%20Analysis%20with%20Python/pics/THEJ-AWS.PNG">
 
+## <u>4)Analyzing the Dataset is shown in .ipnb file</u>
