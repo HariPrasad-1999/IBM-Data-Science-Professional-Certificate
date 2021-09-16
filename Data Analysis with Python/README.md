@@ -53,3 +53,16 @@ df = read_csv(path,header=None)
 * `df` prints the entire dataset(not recommended for large datasets)
 * `df.head(n)` to show the first <i>n</i> rows of dataframe.
 * `df.tail(n)` to show the bottom <i>n</i> rows of dataframe.
+
+
+
+#### Adding headers
+It is difficult to work with the data frame without having meaningful column names. However, we can assign column names in pandas.
+We first put the column names in a list called headers, 
+`headers=["Name of Headers","are written","In quotes"]`
+then we set `df.columns=headers` to replace the default integer headers by the list. 
+If we use the head method introduced in the last slide to check the dataset, we see the correct headers inserted at the top of each column.
+`df.head()` to see the output.
+
+#### Exporting Pandas dataframe to CSV
+Using the method to_CSV, we can convert dataframe into CSV format. To do this, specify the file path which includes the file name that you want to write to. For example, if you would like to save dataframe on computer, use the syntax df.to_CSV.
