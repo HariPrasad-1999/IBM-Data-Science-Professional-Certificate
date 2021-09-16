@@ -71,10 +71,11 @@ The Exporting formats are:-<br>
 <img src="https://github.com/HariPrasad-1999/IBM-Data-Science-Professional-Certificate/blob/ad1166ff35754186760366e0fbe35dba0a4c19e8/Data%20Analysis%20with%20Python/pics/THEJ-AWS.PNG">
 
 ## <u>4)Analyzing the Dataset</u>
- Analyzing is shown in .ipnb file - "Review Introduction"
+ Analyzing is shown in .ipnb file - "Review Introduction".
+ Download the file to view.
  
  
-## <u>5)</u>
+## <u>5)Pre-Processing the Data</u>
  
  
  
