@@ -26,3 +26,13 @@ We have divided the Python data analysis libraries into three groups.
 ## <u>2)Understanding the Problem & Data</u>
 
 <img src="https://miro.medium.com/max/1200/1*YPsZO50dIiEKpW9RqzqsTw.jpeg">
+
+
+## <u>3)Importing & Exporting Data in Python</u>
+Once we have our data in Python, then we can perform all the subsequent data analysis procedures we need.
+To read any data using Python's pandas package, there are two important factors to consider,
+* Format = Format is the way data is encoded. We can usually tell different encoding schemes by looking at the ending of the file name.
+  * Some common encodings are: CSV, JSON, XLSX, HDF and so forth. 
+* File Path = The path tells us where the data is stored. Usually, it is stored either on the, 
+  * Computer = "C:/ThisPC/Users/Desktop/data.csv"
+  * Internet = "https://archive.ics.uci.edu/autps/imports-85.data"
