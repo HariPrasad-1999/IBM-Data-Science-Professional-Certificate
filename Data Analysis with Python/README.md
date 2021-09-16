@@ -76,7 +76,21 @@ The Exporting formats are:-<br>
  
  
 ## <u>5)Pre-Processing the Data</u>
- 
- 
- 
- 
+The process of converting or mapping data from one raw form into another format to make it ready for further analysis. Data preprocessing is often called Data cleaning or Data wrangling.
+* What to do to encounter the missing values in data?
+   
+Ans - When no data value is stored for feature for a particular observation, we say this feature has a missing value.
+* How to deal with Missing Data?
+
+  Ans - Usually missing value in data set appears as question mark and a zero or just a blank cell.There are many ways to deal with missing values and this is regardless of Python, R or whatever tool you use. Of course, each situation is different and should be judged differently.<br>
+  * Check with the data collection source.
+    <p>The first is to check if the person or group that collected the data can go back and find what the actual value should be.</p>
+  * Drop the missing values
+    * Drop the variable - Drop particular rows.
+    * Drop the data entry - Drop particular column.
+  * Replace the missing values 
+    * Replacing it with an average(of similar datapoints).
+      <p>As an example, suppose we have some entries that have missing values for the normalized losses column and the column average for entries with data is 4500. While there is no way for us to get an accurate guess of what the missing value is under the normalized losses column should have been, you can approximate their values using the average value of the column 4500.</p> 
+    * Replacing it by Frequency(Mostly for Categorical and non integer data)
+    * Replace it based on other functions.
+    * Leave it as missing data.
