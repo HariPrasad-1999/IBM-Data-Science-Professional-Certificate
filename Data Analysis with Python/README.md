@@ -66,3 +66,7 @@ If we use the head method introduced in the last slide to check the dataset, we 
 
 #### Exporting Pandas dataframe to CSV
 Using the method to_CSV, we can convert dataframe into CSV format. To do this, specify the file path which includes the file name that you want to write to. For example, if you would like to save dataframe on computer, use the syntax df.to_CSV.
+
+The Exporting formats are:-
+<img src="https://player.slideplayer.com/97/16711279/slides/slide_20.jpg">
+
