@@ -96,3 +96,15 @@ Ans - When no data value is stored for feature for a particular observation, we 
   * Leave it as missing data.
 
 IMPLEMENTATION IS SHOWN IN .IPYNB File.
+
+
+## <u>6)Data Formatting in Python</u>
+
+Data are usually collected from different places and stored in different formats. Bringing Data into a common standard of expression allows users to make meaningful comparison.
+
+<h3>Correcting Data Types</h3>
+  
+  1)To identify data types:
+      * Use `datafram.dtypes()` to identify data type.<br>
+  2)To convert data types:
+      * Use `dataframe.astype()` to convert data type.
